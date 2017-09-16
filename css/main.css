@@ -63,10 +63,6 @@ a {
   text-decoration: underline;
 }
 
-.breadcrumbs__link:last-child {
-  text-decoration: none;
-}
-
 .breadcrumbs__item:last-child:before {
   content: "/";
 }
