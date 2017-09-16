@@ -46,6 +46,10 @@ a {
   color: #221f1f;
 }
 
+.nav__item:nth-child(2) .nav__link {
+  color: #221f1f;
+}
+
 .nav__text {
   display: inline-block;
 }
@@ -66,11 +70,12 @@ a {
 }
 
 .breadcrumbs__item:last-child:before {
-  content: "/ Экипаж";
-  font-size: 14px;
-  font-weight: 300;
-  font-style: italic;
-  opacity: 0.8;
+  content: "/";
+}
+
+.breadcrumbs__item:nth-child(2) .breadcrumbs__link {
+  color: #221f1f;
+  text-decoration: none;
 }
 
 /* ______Crew______ */
