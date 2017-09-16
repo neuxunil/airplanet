@@ -57,14 +57,20 @@ a {
 }
 
 .breadcrumbs__link {
+  color: #1c5bc3;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 300;
   font-style: italic;
   text-decoration: underline;
+  opacity: 0.8;
 }
 
 .breadcrumbs__item:last-child:before {
-  content: "/";
+  content: "/ Экипаж";
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+  opacity: 0.8;
 }
 
 /* ______Crew______ */
