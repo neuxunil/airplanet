@@ -37,6 +37,11 @@ a {
 
 /* ______Navigation_______ */
 
+.sidebar {
+  display: inline-block;
+
+}
+
 .nav__link {
   color: #1c5bc3;
   font-size: 12px;
@@ -84,11 +89,20 @@ a {
 
 /* ______Crew______ */
 
+.section {
+  display: inline-block;
+}
+
 .crew__ava-img {
   width: 160px;
   height: 160px;
   border-radius: 50%;
 
+}
+
+.crew__item {
+  display: inline-block;
+  width: 340px;
 }
 
 .crew__name {
