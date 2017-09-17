@@ -1,6 +1,6 @@
 /* _______All page________ */
 
-body {
+.wrapper {
 font-family: 'Roboto', sans-serif;
 }
 
@@ -16,6 +16,10 @@ a {
 
 .header {
   background-color: #1c5bc3;
+}
+
+.contacts, .logo {
+  display: inline-block;
 }
 
 .contacts__phone {
@@ -47,7 +51,7 @@ a {
 }
 
 .nav__item:nth-child(2) .nav__link {
-  color: #221f1f;
+  color: black;
 }
 
 .nav__text {
@@ -83,7 +87,7 @@ a {
 .crew__ava-img {
   width: 160px;
   height: 160px;
-  border-radius: 50% 50%;
+  border-radius: 50%;
 
 }
 
@@ -108,6 +112,10 @@ a {
 
 .footer {
   background-color: #1c5bc3;
+}
+
+.footer__col {
+  display: inline-block;
 }
 
 .footer__text {
@@ -141,7 +149,7 @@ a {
   height: 20px;
   text-align: center;
   background-color: #d3dff3;
-  border-radius: 50% 50%;
+  border-radius: 50%;
 }
 
 .socials__item:hover {
