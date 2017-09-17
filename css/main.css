@@ -20,6 +20,8 @@ a {
 
 .contacts, .logo {
   display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .contacts__phone {
@@ -37,9 +39,32 @@ a {
 
 /* ______Navigation_______ */
 
-.sidebar {
+.sidebar, .nav__icon-main, .nav__icon-team, .nav__icon-feed, .nav__text {
   display: inline-block;
+}
 
+.nav__icon-main {
+  background-image: url(../img/sidebar/sidebar-icons.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+	width: 18px;
+	height: 18px;
+}
+
+.nav__icon-team {
+  background-image: url(../img/sidebar/sidebar-icons.png);
+  background-repeat: no-repeat;
+  background-position: -19px -1px ;
+	width: 23px;
+	height: 18px;
+}
+
+.nav__icon-feed {
+  background-image: url(../img/sidebar/sidebar-icons.png);
+  background-repeat: no-repeat;
+  background-position: -42px -2px ;
+	width: 21px;
+	height: 19px;
 }
 
 .nav__link {
@@ -51,18 +76,27 @@ a {
   letter-spacing: 2.4px;
 }
 
-.nav__link:hover {
+.nav__link:hover .nav__icon-main {
+  background-position: 0 -19px ;
+	width: 18px;
+	height: 18px;
+}
+
+.nav__link:hover .nav__icon-team {
+  background-position: -19px -20px ;
+	width: 23px;
+	height: 18px;
+}
+
+.nav__link:hover .nav__icon-feed{
+  background-position: -42px -20px ;
+	width: 21px;
+	height: 19px;
+}
+
+.nav__link:hover .nav__text {
   color: #221f1f;
 }
-
-.nav__item:nth-child(2) .nav__link {
-  color: black;
-}
-
-.nav__text {
-  display: inline-block;
-}
-
 /* ______Breadcrumbs______ */
 
 .breadcrumbs li {
