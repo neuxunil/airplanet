@@ -1,6 +1,6 @@
 /* _______All page________ */
 
-body {
+.wrapper {
 font-family: 'Roboto', sans-serif;
 }
 
@@ -18,6 +18,12 @@ a {
   background-color: #1c5bc3;
 }
 
+.contacts, .logo {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .contacts__phone {
   color: #ffffff;
   font-size: 21px;
@@ -33,6 +39,34 @@ a {
 
 /* ______Navigation_______ */
 
+.sidebar, .nav__icon-main, .nav__icon-team, .nav__icon-feed, .nav__text {
+  display: inline-block;
+}
+
+.nav__icon-main {
+  background-image: url(../img/sidebar/sidebar-icons.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+	width: 18px;
+	height: 18px;
+}
+
+.nav__icon-team {
+  background-image: url(../img/sidebar/sidebar-icons.png);
+  background-repeat: no-repeat;
+  background-position: -19px -1px ;
+	width: 23px;
+	height: 18px;
+}
+
+.nav__icon-feed {
+  background-image: url(../img/sidebar/sidebar-icons.png);
+  background-repeat: no-repeat;
+  background-position: -42px -2px ;
+	width: 21px;
+	height: 19px;
+}
+
 .nav__link {
   color: #1c5bc3;
   font-size: 12px;
@@ -42,12 +76,36 @@ a {
   letter-spacing: 2.4px;
 }
 
-.nav__link:hover {
+.nav__link:hover .nav__icon-main {
+  background-position: 0 -19px ;
+	width: 18px;
+	height: 18px;
+}
+
+.nav__link:hover .nav__icon-team {
+  background-position: -19px -20px ;
+	width: 23px;
+	height: 18px;
+}
+
+.nav__link:hover .nav__icon-feed{
+  background-position: -42px -20px ;
+	width: 21px;
+	height: 19px;
+}
+
+.nav__link:hover .nav__text {
   color: #221f1f;
 }
 
-.nav__text {
-  display: inline-block;
+.nav__link .nav__icon-team {
+  background-position: -19px -20px ;
+	width: 23px;
+	height: 18px;
+}
+
+.nav__item:nth-child(2) .nav__text {
+  color: #221f1f;
 }
 
 /* ______Breadcrumbs______ */
@@ -57,27 +115,39 @@ a {
 }
 
 .breadcrumbs__link {
+  color: #1c5bc3;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 300;
   font-style: italic;
   text-decoration: underline;
-}
-
-.breadcrumbs__link:last-child {
-  text-decoration: none;
+  opacity: 0.8;
 }
 
 .breadcrumbs__item:last-child:before {
   content: "/";
 }
 
+.breadcrumbs__item:nth-child(2) .breadcrumbs__link {
+  color: #221f1f;
+  text-decoration: none;
+}
+
 /* ______Crew______ */
+
+.section {
+  display: inline-block;
+}
 
 .crew__ava-img {
   width: 160px;
   height: 160px;
-  border-radius: 50% 50%;
+  border-radius: 50%;
 
+}
+
+.crew__item {
+  display: inline-block;
+  width: 340px;
 }
 
 .crew__name {
@@ -101,6 +171,10 @@ a {
 
 .footer {
   background-color: #1c5bc3;
+}
+
+.footer__col {
+  display: inline-block;
 }
 
 .footer__text {
@@ -134,7 +208,7 @@ a {
   height: 20px;
   text-align: center;
   background-color: #d3dff3;
-  border-radius: 50% 50%;
+  border-radius: 50%;
 }
 
 .socials__item:hover {
