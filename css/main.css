@@ -97,6 +97,17 @@ a {
 .nav__link:hover .nav__text {
   color: #221f1f;
 }
+
+.nav__link .nav__icon-team {
+  background-position: -19px -20px ;
+	width: 23px;
+	height: 18px;
+}
+
+.nav__item:nth-child(2) .nav__text {
+  color: #221f1f;
+}
+
 /* ______Breadcrumbs______ */
 
 .breadcrumbs li {
