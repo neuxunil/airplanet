@@ -143,6 +143,7 @@ display: none;
 .breadcrumbs__link_active {
   color: #221f1f;
   text-decoration: none;
+  pointer-events: none;
 }
 
 /* ______Crew______ */
