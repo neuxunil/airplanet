@@ -202,11 +202,11 @@ display: none;
   font-weight: 300;
 }
 
-.footer__text_ls, .footer__text-author {
+.footer__text-ls, .footer__text-author {
   font-weight: 700;
 }
 
-.footer__text_ls {
+.footer__text-ls {
   text-decoration: underline;
 }
 
