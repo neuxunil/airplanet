@@ -1,21 +1,26 @@
 /* _______All page________ */
 
+body {
+  margin: 0;
+}
+
 .wrapper {
 font-family: 'Roboto', sans-serif;
 }
 
-ul li {
+ul {
   list-style: none;
 }
 
 a {
-  text-decoration: none;
+  display: inline-block;
 }
 
 /* _______Header_______ */
 
 .header {
   background-color: #1c5bc3;
+  color: #ffffff;
 }
 
 .contacts, .logo {
@@ -25,43 +30,47 @@ a {
 }
 
 .contacts__phone {
-  color: #ffffff;
   font-size: 21px;
   font-weight: 700;
+  color: #ffffff;
 }
 
 .contacts__desc {
   opacity: 0.7;
-  color: #ffffff;
   font-size: 14px;
   text-decoration: underline;
 }
 
 /* ______Navigation_______ */
 
-.sidebar, .nav__icon-main, .nav__icon-team, .nav__icon-feed, .nav__text {
+.sidebar  {
+  float: left;
+}
+
+.nav__icon, .nav__text {
   display: inline-block;
 }
 
-.nav__icon-main {
-  background-image: url(../img/sidebar/sidebar-icons.png);
-  background-repeat: no-repeat;
+.sidebar {
+  width: 200px;
+}
+
+.nav__icon_main {
+  background: url(../img/sidebar/sidebar-icons.png) center center no-repeat;
   background-position: 0 0;
 	width: 18px;
 	height: 18px;
 }
 
-.nav__icon-team {
-  background-image: url(../img/sidebar/sidebar-icons.png);
-  background-repeat: no-repeat;
+.nav__icon_team {
+  background: url(../img/sidebar/sidebar-icons.png) center center no-repeat;
   background-position: -19px -1px ;
 	width: 23px;
 	height: 18px;
 }
 
-.nav__icon-feed {
-  background-image: url(../img/sidebar/sidebar-icons.png);
-  background-repeat: no-repeat;
+.nav__icon_feed {
+  background: url(../img/sidebar/sidebar-icons.png) center center no-repeat;
   background-position: -42px -2px ;
 	width: 21px;
 	height: 19px;
@@ -73,22 +82,23 @@ a {
   font-weight: 700;
   line-height: 54px;
   text-transform: uppercase;
+  text-decoration: none;
   letter-spacing: 2.4px;
 }
 
-.nav__link:hover .nav__icon-main {
+.nav__link:hover .nav__icon_main {
   background-position: 0 -19px ;
 	width: 18px;
 	height: 18px;
 }
 
-.nav__link:hover .nav__icon-team {
+.nav__link:hover .nav__icon_team {
   background-position: -19px -20px ;
 	width: 23px;
 	height: 18px;
 }
 
-.nav__link:hover .nav__icon-feed{
+.nav__link:hover .nav__icon_feed{
   background-position: -42px -20px ;
 	width: 21px;
 	height: 19px;
@@ -98,7 +108,7 @@ a {
   color: #221f1f;
 }
 
-.nav__link .nav__icon-team {
+.nav__link .nav__icon_team {
   background-position: -19px -20px ;
 	width: 23px;
 	height: 18px;
@@ -110,7 +120,7 @@ a {
 
 /* ______Breadcrumbs______ */
 
-.breadcrumbs li {
+.breadcrumbs__item {
   display: inline-block;
 }
 
@@ -119,15 +129,18 @@ a {
   font-size: 14px;
   font-weight: 300;
   font-style: italic;
-  text-decoration: underline;
   opacity: 0.8;
 }
 
-.breadcrumbs__item:last-child:before {
+.breadcrumbs__item:after {
   content: "/";
 }
 
-.breadcrumbs__item:nth-child(2) .breadcrumbs__link {
+.breadcrumbs__item:last-child:after {
+display: none;
+}
+
+.breadcrumbs__link_active {
   color: #221f1f;
   text-decoration: none;
 }
@@ -136,18 +149,20 @@ a {
 
 .section {
   display: inline-block;
+  width: 900px;
+}
+
+.crew__item {
+  display: inline-block;
+  width: 260px;
+  text-align: center;
+  vertical-align: top;
 }
 
 .crew__ava-img {
   width: 160px;
   height: 160px;
   border-radius: 50%;
-
-}
-
-.crew__item {
-  display: inline-block;
-  width: 340px;
 }
 
 .crew__name {
@@ -171,16 +186,17 @@ a {
 
 .footer {
   background-color: #1c5bc3;
+  color: #ffffff;
 }
 
 .footer__col {
-  display: inline-block;
+  float:left;
+  width: 33.3%;
 }
 
 .footer__text {
   width: 235px;
   height: 50px;
-  color: #ffffff;
   font-size: 14px;
   font-weight: 300;
 }
@@ -193,8 +209,12 @@ a {
   text-decoration: underline;
 }
 
+.footer__col .logo {
+  display: inline-block;
+  text-align: center;
+}
+
 .socials__title {
-  color: #ffffff;
   font-size: 14px;
   font-weight: 700;
 }
@@ -204,6 +224,7 @@ a {
 }
 
 .socials__item {
+  display: inline-block;
   width: 20px;
   height: 20px;
   text-align: center;
@@ -213,4 +234,12 @@ a {
 
 .socials__item:hover {
   background-color: #ffffff;
+}
+
+/* ______Clearfix_______ */
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
 }

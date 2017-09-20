@@ -13,9 +13,11 @@
 <!-- Header -->
     <div class="header">
       <div class="container">
-        <img src="./img/logo.png" alt="Airplanet logo" class="logo">
+        <a href="#" class="logo">
+        <img src="./img/logo.png" alt="Airplanet logo" class="logo__img">
+        </a>
         <div class="contacts">
-          <div class="contacts__phone">8 (800) 00-392-10</div>
+          <a href="tel:8(800)00-392-10"class="contacts__phone">8 (800) 00-392-10</a>
           <div class="contacts__desc">График работы</div>
         </div>
       </div>
@@ -25,29 +27,27 @@
       <div class="container">
 <!-- Navigation -->
         <div class="sidebar">
-          <ul class="nav">
-            <li class="nav__item">
-              <a href="./main.html" class="nav__link">
-                <div class="nav__icon nav__icon-main"></div>
-                <div class="nav__text">Главная</div>
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="./crew.html" class="nav__link">
-                <div class="nav__icon nav__icon-team"></div>
-                <div class="nav__text">Экипаж</div>
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="./reviews.html" class="nav__link">
-                <div class="nav__icon nav__icon-feed"></div>
-                <div class="nav__text">Отзывы</div>
-              </a>
-            </li>
-          </ul>
-        </div>
+        <ul class="nav">
+          <li class="nav__item">
+            <a href="./main.html" class="nav__link">
+              <div class="nav__icon nav__icon_main"></div>
+              <div class="nav__text">Главная</div>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="./crew.html" class="nav__link">
+              <div class="nav__icon nav__icon_team"></div>
+              <div class="nav__text">Экипаж</div>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="./reviews.html" class="nav__link">
+              <div class="nav__icon nav__icon_feed"></div>
+              <div class="nav__text">Отзывы</div>
+            </a>
+          </li>
+        </ul>
       </div>
-        </div>
 <!-- Breadcrumbs -->
         <div class="section">
           <ul class="breadcrumbs">
@@ -55,15 +55,15 @@
               <a href="./main.html" class="breadcrumbs__link">Главная</a>
             </li>
             <li class="breadcrumbs__item">
-              <a href="#" class="breadcrumbs__link">Экипаж</a>
+              <a href="#" class="breadcrumbs__link breadcrumbs__link_active">Экипаж</a>
             </li>
           </ul>
-          <h1>Экипаж</h1>
+          <h1 class="section__title">Экипаж</h1>
 <!-- Crew -->
           <ul class="crew">
             <li class="crew__item">
               <div class="crew__ava">
-                <img src="./img/crew/alexey.jpg" alt="" class="crew__ava-img">
+                <img src="./img/crew/alexey.jpg" alt="Белов Алексей Вадимович" class="crew__ava-img">
               </div>
               <div class="crew__info">
                 <div class="crew__name">Белов Алексей Вадимович</div>
@@ -73,7 +73,7 @@
             </li>
             <li class="crew__item">
               <div class="crew__ava">
-                <img src="./img/crew/inna.jpg" alt="" class="crew__ava-img">
+                <img src="./img/crew/inna.jpg" alt="Сухарина Инна Николаевна" class="crew__ava-img">
               </div>
               <div class="crew__info">
                 <div class="crew__name">Сухарина Инна Николаевна</div>
@@ -83,7 +83,7 @@
             </li>
             <li class="crew__item">
               <div class="crew__ava">
-                <img src="./img/crew/boris.jpg" alt="" class="crew__ava-img">
+                <img src="./img/crew/boris.jpg" alt="Лещ Борис Анатольевич" class="crew__ava-img">
               </div>
               <div class="crew__info">
                 <div class="crew__name">Лещ Борис Анатольевич</div>
@@ -93,7 +93,7 @@
             </li>
             <li class="crew__item">
               <div class="crew__ava">
-                <img src="./img/crew/elina.jpg" alt="" class="crew__ava-img">
+                <img src="./img/crew/elina.jpg" alt="Дигангидзе Элина Даниловна" class="crew__ava-img">
               </div>
               <div class="crew__info">
                 <div class="crew__name">Дигангидзе Элина Даниловна</div>
@@ -103,7 +103,7 @@
             </li>
             <li class="crew__item">
               <div class="crew__ava">
-                <img src="./img/crew/elena.jpg" alt="" class="crew__ava-img">
+                <img src="./img/crew/elena.jpg" alt="Следь Елена Николаевна" class="crew__ava-img">
               </div>
               <div class="crew__info">
                 <div class="crew__name">Следь Елена Николаевна</div>
@@ -113,7 +113,7 @@
             </li>
             <li class="crew__item">
               <div class="crew__ava">
-                <img src="./img/crew/yurii.jpg" alt="" class="crew__ava-img">
+                <img src="./img/crew/yurii.jpg" alt="Нестеренко Юрий Афанасьевич" class="crew__ava-img">
               </div>
               <div class="crew__info">
                 <div class="crew__name">Нестеренко Юрий Афанасьевич</div>
@@ -123,14 +123,18 @@
             </li>
           </ul>
         </div>
+      </div>
+    </div>
 <!-- Footer -->
     <div class="footer">
-      <div class="container">
+      <div class="container clearfix">
         <div class="footer__col">
           <div class="footer__text">Сделано с любовью и старанием на курсе «HTML + CSS» в <span class="footer__text_ls">LoftSchool</span>. Автор работы: <span class="footer__text-author">Олизаревич Сергей</span></div>
         </div>
         <div class="footer__col">
-          <img src="./img/logo.png" alt="Airplanet logo" class="logo">
+          <a href="#" class="logo">
+          <img src="./img/logo.png" alt="Airplanet logo" class="logo__img">
+          </a>
         </div>
         <div class="footer__col">
           <div class="socials">
