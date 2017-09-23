@@ -12,7 +12,7 @@
 }
 
 .breadcrumbs__item {
-  display: inline-block;
+  display: in-block;
 }
 
 .breadcrumbs__link {
@@ -38,8 +38,9 @@
 }
 
 .main-content__title {
+  display: in-block;
   font-size: 49px;
-  margin-bottom: 50px;
+  margin: 160px 66px;
 }
 
 /* ______Экипаж______ */
@@ -72,4 +73,55 @@
 .crew__text {
   font-size: 14px;
   font-weight: 300;
+}
+
+.main-content__img {
+  background-image: url(../../img/main-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 879px;
+  height: 354px;
+  border: 2px solid red;
+}
+
+p {
+  text-align: justify;
+  width: 698px;
+}
+
+.main-content__text {
+  width: 698px;
+  list-style: disc;
+  list-style-position:inside;
+  line-height: 1.7em;
+}
+
+.main-content__text ul li {
+  list-style: disc;
+  list-style-position: inside;
+  margin-left: 10px;
+}
+
+.main-content__reserv  p {
+  width: 600px;
+  background-color: #1c5bc3;
+  color: #ffffff;
+  font-weight: 300;
+  padding: 20px 76px 16px 30px;
+}
+
+.main-content__reserv a,b {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.partners__title {
+  font-size: 49px;
+  margin-top: 70px;
+}
+
+.partners__item {
+  display: inline-block;
+  margin-bottom: 64px;
+  margin-right: 120px;
 }
