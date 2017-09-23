@@ -1,0 +1,64 @@
+/* ______"Хлебные крошки"______ */
+
+.breadcrumbs__item {
+  display: inline-block;
+}
+
+.breadcrumbs__link {
+  color: #1c5bc3;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.breadcrumbs__item:after {
+  content: "/";
+}
+
+.breadcrumbs__item:last-child:after {
+  display: none;
+}
+
+.breadcrumbs__link_active {
+  color: #221f1f;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+/* ______Экипаж______ */
+
+.main-content {
+  display: inline-block;
+  width: 900px;
+}
+
+.crew__item {
+  display: inline-block;
+  width: 260px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.crew__ava-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+.crew__name {
+  color: #221f1f;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.crew__prof {
+  color: #1c5bc3;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.crew__text {
+  font-size: 14px;
+  font-weight: 300;
+}
