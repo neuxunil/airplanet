@@ -77,9 +77,7 @@
 
 .main-content__img {
   background-image: url(../../img/main-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 879px;
+  width: 878px;
   height: 354px;
   border: 2px solid red;
 }
@@ -102,15 +100,15 @@ p {
   margin-left: 10px;
 }
 
-.main-content__reserv  p {
+.main-content__reserv p {
+  color: #ffffff;
   width: 600px;
   background-color: #1c5bc3;
-  color: #ffffff;
   font-weight: 300;
   padding: 20px 76px 16px 30px;
 }
 
-.main-content__reserv a,b {
+.main-content__reserv a {
   color: #ffffff;
   font-weight: 700;
 }
