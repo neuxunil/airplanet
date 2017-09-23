@@ -14,17 +14,21 @@
 <!-- Header -->
     <header class="header">
       <div class="container">
-        <a href="#" class="logo">
-        <img src="./img/logo.png" alt="Airplanet logo" class="logo__img">
-        </a>
-        <address class="contacts">
-          <a href="tel:+78000039210"class="contacts__phone">8 (800) 00-392-10</a>
-          <div class="contacts__desc">График работы</div>
-        </address>
+        <div class="header__col">
+          <a href="#" class="logo">
+          <img src="./img/logo.png" alt="Airplanet logo" class="logo__img">
+          </a>
+        </div>
+        <div class="header__col">
+            <address class="contacts">
+            <a href="tel:+78000039210"class="contacts__phone">8 (800) 00-392-10</a>
+            <div class="contacts__desc">График работы</div>
+          </address>
+        </div>
       </div>
     </header>
 <!-- Content -->
-      <div class="container">
+      <div class="container clearfix">
 <!-- Navigation -->
         <aside class="sidebar">
         <ul class="nav">
@@ -34,8 +38,8 @@
               <div class="nav__text">Главная</div>
             </a>
           </li>
-          <li class="nav__item nav__item_active">
-            <a href="./crew.html" class="nav__link">
+          <li class="nav__item">
+            <a href="./crew.html" class="nav__link nav__link_active">
               <div class="nav__icon nav__icon_team"></div>
               <div class="nav__text">Экипаж</div>
             </a>
@@ -58,7 +62,7 @@
               <a href="#" class="breadcrumbs__link breadcrumbs__link_active">Экипаж</a>
             </li>
           </ul>
-          <h1 class="section__title">Экипаж</h1>
+          <h1 class="main-content__title">Экипаж</h1>
 <!-- Crew -->
           <ul class="crew">
             <li class="crew__item">
@@ -127,12 +131,12 @@
 <!-- Footer -->
     </div>
     <footer class="footer">
-      <div class="container clearfix">
+      <div class="container">
         <div class="footer__col">
           <div class="footer__text">Сделано с любовью и старанием на курсе «HTML + CSS» в <span class="footer__text-ls">LoftSchool</span>. Автор работы: <span class="footer__text-author">Олизаревич Сергей</span></div>
         </div>
         <div class="footer__col">
-          <a href="#" class="logo">
+          <a href="#" class="logo_footer">
           <img src="./img/logo.png" alt="Airplanet logo" class="logo__img">
           </a>
         </div>

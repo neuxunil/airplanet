@@ -1,4 +1,15 @@
+.main-content {
+  float: left;
+  width: 866px;
+  /*border: 2px solid red;*/
+}
+
 /* ______"Хлебные крошки"______ */
+
+.breadcrumbs {
+  margin-top: 30px;
+  margin-bottom: 28px;
+}
 
 .breadcrumbs__item {
   display: inline-block;
@@ -26,12 +37,12 @@
   pointer-events: none;
 }
 
-/* ______Экипаж______ */
-
-.main-content {
-  display: inline-block;
-  width: 900px;
+.main-content__title {
+  font-size: 49px;
+  margin-bottom: 50px;
 }
+
+/* ______Экипаж______ */
 
 .crew__item {
   display: inline-block;
