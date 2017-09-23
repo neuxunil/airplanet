@@ -12,7 +12,7 @@
 }
 
 .breadcrumbs__item {
-  display: in-block;
+  display: inline-block;
 }
 
 .breadcrumbs__link {
@@ -38,9 +38,8 @@
 }
 
 .main-content__title {
-  display: in-block;
+  display: inline-block;
   font-size: 49px;
-  margin: 160px 66px;
 }
 
 /* ______Экипаж______ */
