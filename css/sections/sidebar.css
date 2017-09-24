@@ -1,13 +1,11 @@
 .sidebar  {
   float: left;
   width: 190px;
-  /*border: 2px solid blue;*/
 }
 
 .nav {
   padding-top: 25px;
   padding-left: 40px;
-  /*border: 2px solid yellow;*/
 }
 
 .nav__icon {
@@ -40,6 +38,7 @@
 }
 
 .nav__link {
+  display: inline-block;
   color: #1c5bc3;
   font-size: 12px;
   font-weight: 700;
@@ -48,7 +47,6 @@
   text-decoration: none;
   letter-spacing: 2.4px;
   margin-left: -20px;
-  /*border: 2px solid blue;*/
 }
 
 .nav__link:hover .nav__icon_main {

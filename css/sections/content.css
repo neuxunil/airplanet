@@ -1,14 +1,12 @@
 .main-content {
   float: left;
   width: 866px;
-  /*border: 2px solid red;*/
 }
 
-/* ______"Хлебные крошки"______ */
+/* ______"Breadcrumbs"______ */
 
 .breadcrumbs {
-  margin-top: 30px;
-  margin-bottom: 28px;
+  padding-top:30px;
 }
 
 .breadcrumbs__item {
@@ -42,13 +40,14 @@
   font-size: 49px;
 }
 
-/* ______Экипаж______ */
+/* ______Crew______ */
 
 .crew__item {
   display: inline-block;
   width: 260px;
   text-align: center;
   vertical-align: top;
+  margin-top: 20px;
   margin-right: 20px;
   margin-bottom: 40px;
 }
@@ -76,12 +75,21 @@
   font-weight: 300;
 }
 
+
+/* ______Main page______ */
+
 .main-content__img {
   background-image: url(../../img/main-bg.jpg);
-  background-position: center;
+  background-repeat: no-repeat;
+  background-position: bottom;
   background-size: cover;
   width: 862px;
   height: 354px;
+}
+
+.main-content__title {
+  padding-top: 90px;
+  padding-left: 66px;
 }
 
 p {
@@ -122,6 +130,6 @@ p {
 
 .partners__item {
   display: inline-block;
-  margin-bottom: 64px;
-  margin-right: 120px;
+  padding-bottom: 64px;
+  padding-right: 120px;
 }
