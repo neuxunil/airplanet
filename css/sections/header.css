@@ -9,11 +9,12 @@
 }
 
 .logo {
-  margin: 20px 20px 20px 20px;
+  display: inline-block;
+  margin: 20px 20px 13px 20px;
 }
 
 .contacts {
-  margin: 15px 20px;
+  margin: 13px 20px;
   text-align: right;
 }
 

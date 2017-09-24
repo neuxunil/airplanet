@@ -4,16 +4,33 @@
 }
 
 .nav {
-  padding-top: 25px;
-  padding-left: 40px;
+  padding-top: 45px;
+  padding-left: 20px;
+}
+
+.nav__link {
+  display: inline-block;
+  color: #1c5bc3;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2.4px;
+  margin-bottom: 25px;
 }
 
 .nav__icon {
   display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  width: 23px;
+  height: 21px;
 }
 
 .nav__text {
   display: inline-block;
+  padding-left: 15px;
+  vertical-align: middle;
 }
 
 .nav__icon_main {
@@ -37,37 +54,28 @@
 	height: 19px;
 }
 
-.nav__link {
-  display: inline-block;
-  color: #1c5bc3;
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 50px;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 2.4px;
-  margin-left: -20px;
-}
-
 .nav__link:hover .nav__icon_main {
-  background-position: 0 -19px ;
-	width: 18px;
-	height: 18px;
+  background-position: 0 -19px;
 }
 
 .nav__link:hover .nav__icon_team {
-  background-position: -19px -20px ;
+  background-position: -19px -20px;
 }
 
 .nav__link:hover .nav__icon_feed{
-  background-position: -42px -20px ;
+  background-position: -42px -20px;
 }
 
-.nav__link .nav__icon_team {
-  background-position: -19px -20px ;
+.nav__link:hover .nav__text {
+  color: #221f1f;
 }
 
-.nav__link_active {
+.nav__link_active .nav__text {
   color: #221f1f;
   pointer-events: none;
+}
+
+.nav__link_active .nav__icon{
+  background: url(../../img/sidebar/sidebar-icons.png) center center no-repeat;
+  background-position: -19px -20px;
 }
