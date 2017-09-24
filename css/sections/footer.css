@@ -20,6 +20,8 @@
 
 .footer__text-ls, .footer__text-author {
   font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .footer__text-ls {
