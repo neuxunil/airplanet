@@ -1,12 +1,12 @@
 .main-content {
   float: left;
-  width: 866px;
+  width: 879px;
 }
 
 /* ______"Breadcrumbs"______ */
 
 .breadcrumbs {
-  padding-top:30px;
+  padding-top: 40px;
 }
 
 .breadcrumbs__item {
@@ -38,24 +38,32 @@
 .main-content__title {
   display: inline-block;
   font-size: 49px;
+  margin-bottom: 35px;
 }
 
 /* ______Crew______ */
+
+.crew {
+    padding-bottom: 39px;
+    width: 100%;
+}
 
 .crew__item {
   display: inline-block;
   width: 260px;
   text-align: center;
   vertical-align: top;
-  margin-top: 20px;
-  margin-right: 20px;
-  margin-bottom: 40px;
+  padding-top: 20px;
+  padding-left: 8px;
+  padding-right: 20px;
+  padding-bottom: 15px;
 }
 
 .crew__ava-img {
   width: 160px;
   height: 160px;
   border-radius: 50%;
+  padding-bottom: 20px;
 }
 
 .crew__name {
@@ -89,6 +97,10 @@
 .main-content__title_img {
   padding-top: 135px;
   padding-left: 68px;
+}
+
+.main-content__text ul li {
+  padding-left: 15px;
 }
 
 p {
