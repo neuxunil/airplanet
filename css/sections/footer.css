@@ -14,8 +14,9 @@
 .footer__text {
   width: 235px;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
   margin: 14px 0 13px 19px;
+  line-height: 1.3em;
 }
 
 .footer__text-ls, .footer__text-author {
