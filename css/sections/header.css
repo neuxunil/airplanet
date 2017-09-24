@@ -1,0 +1,32 @@
+.header {
+  background-color: #1c5bc3;
+  color: #ffffff;
+}
+
+.header__col {
+  display: inline-block;
+  width: 49.5%;
+}
+
+.logo {
+  margin: 20px 20px 20px 20px;
+}
+
+.contacts {
+  margin: 15px 20px;
+  text-align: right;
+}
+
+.contacts__phone {
+  font-size: 21px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.contacts__desc {
+  opacity: 0.7;
+  font-size: 14px;
+  text-decoration: underline;
+}

@@ -1,0 +1,149 @@
+.main-content {
+  float: left;
+  width: 866px;
+}
+
+/* ______"Breadcrumbs"______ */
+
+.breadcrumbs {
+  padding-top:30px;
+}
+
+.breadcrumbs__item {
+  display: inline-block;
+}
+
+.breadcrumbs__link {
+  color: #1c5bc3;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.breadcrumbs__item:after {
+  content: "/";
+}
+
+.breadcrumbs__item:last-child:after {
+  display: none;
+}
+
+.breadcrumbs__link_active {
+  color: #221f1f;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+.main-content__title {
+  display: inline-block;
+  font-size: 49px;
+}
+
+/* ______Crew______ */
+
+.crew__item {
+  display: inline-block;
+  width: 260px;
+  text-align: center;
+  vertical-align: top;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+
+.crew__ava-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+.crew__name {
+  color: #221f1f;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.crew__prof {
+  color: #1c5bc3;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.crew__text {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+
+/* ______Main page______ */
+
+.main-content__img {
+  background-image: url(../../img/main-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  width: 880px;
+  height: 357px;
+}
+
+.main-content__title_img {
+  padding-top: 137px;
+  padding-left: 68px;
+}
+
+p {
+  text-align: justify;
+  width: 700px;
+}
+
+.main-content__text {
+  width: 700px;
+  list-style: disc;
+  list-style-position:inside;
+  line-height: 1.42em;
+  font-size: 18px;
+  margin-top: 28px;
+}
+
+.main-content__text ul li {
+  list-style: disc;
+  list-style-position: inside;
+}
+
+.main-content__reserv {
+  width: 700px;
+  color: #ffffff;
+  background-color: #1c5bc3;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.main-content__reserv p {
+  width: 594px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.6em;
+  padding: 15px 70px 16px 30px;
+}
+
+.main-content__reserv a {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.partners {
+  margin-bottom: 12px;
+}
+
+.partners__title {
+  font-size: 49px;
+  margin-top: 70px;
+}
+
+.partners__item {
+  display: inline-block;
+  padding-bottom: 64px;
+  padding-right: 110px;
+  text-align: center;
+}

@@ -1,0 +1,39 @@
+body, html {
+  height: 100%
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #221f1f;
+  line-height: 1.42em;
+}
+
+.wrapper {
+  min-width: 1062px;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.wrapper:after {
+  content: "";
+  display: block;
+  height: 77px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+  /*border: 2px solid black;*/
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
