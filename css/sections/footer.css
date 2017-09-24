@@ -2,19 +2,21 @@
   background-color: #1c5bc3;
   color: #ffffff;
   margin-top: -77px;
-  min-width: 1060px;
+  min-width: 1080px;
 }
 
 .footer__col {
   display: inline-block;
-  width: 32.8%;
+  width: 31.0%;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 20px;
 }
 
 .footer__text {
-  width: 235px;
+  width: 240px;
   font-size: 14px;
   font-weight: 400;
-  margin: 14px 0 13px 19px;
   line-height: 1.3em;
 }
 
@@ -37,12 +39,11 @@
   text-align: right;
   font-size: 14px;
   font-weight: 700;
-  margin-top: 20px;
+  padding-right: 18px;
 }
 
 .socials__title {
-  margin-bottom: 9px;
-  padding-right: 5px;
+  padding-bottom: 5px;
 }
 
 .socials__item {
@@ -53,7 +54,7 @@
   vertical-align: middle;
   background-color: #d3dff3;
   border-radius: 50%;
-  margin-right: 10px;
+  margin-right: 9px;
 }
 
 .socials__item:hover {
