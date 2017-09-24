@@ -34,21 +34,25 @@
 }
 
 .nav__icon_main {
-  background: url(../../img/sidebar/sidebar-icons.png) center center no-repeat;
+  background: url(../../img/sidebar/sidebar-icons.png);
+  background-repeat: no-repeat;
+  background-position: center;
   background-position: 0 0;
 	width: 18px;
 	height: 18px;
 }
 
 .nav__icon_team {
-  background: url(../../img/sidebar/sidebar-icons.png) center center no-repeat;
+  background: url(../../img/sidebar/sidebar-icons.png); background-repeat: no-repeat;
+  background-position: center;
   background-position: -19px -1px ;
 	width: 23px;
 	height: 18px;
 }
 
 .nav__icon_feed {
-  background: url(../../img/sidebar/sidebar-icons.png) center center no-repeat;
+  background: url(../../img/sidebar/sidebar-icons.png); background-repeat: no-repeat;
+  background-position: center;
   background-position: -42px -2px ;
 	width: 21px;
 	height: 19px;
