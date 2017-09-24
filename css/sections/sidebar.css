@@ -78,7 +78,7 @@
   color: #221f1f;
   pointer-events: none;
 }
-
+/*Ddd*/
 .nav__link_active .nav__icon{
   background: url(../../img/sidebar/sidebar-icons.png) center center no-repeat;
   background-position: -19px -20px;
