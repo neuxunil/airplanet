@@ -49,6 +49,8 @@
   width: 260px;
   text-align: center;
   vertical-align: top;
+  margin-right: 20px;
+  margin-bottom: 40px;
 }
 
 .crew__ava-img {
@@ -76,9 +78,10 @@
 
 .main-content__img {
   background-image: url(../../img/main-bg.jpg);
-  width: 878px;
+  background-position: center;
+  background-size: cover;
+  width: 862px;
   height: 354px;
-  border: 2px solid red;
 }
 
 p {
