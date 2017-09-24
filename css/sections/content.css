@@ -84,11 +84,11 @@
   background-position: bottom;
   background-size: cover;
   width: 880px;
-  height: 357px;
+  height: 353px;
 }
 
 .main-content__title_img {
-  padding-top: 137px;
+  padding-top: 135px;
   padding-left: 68px;
 }
 
@@ -133,7 +133,7 @@ p {
 }
 
 .partners {
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 
 .partners__title {
@@ -143,7 +143,9 @@ p {
 
 .partners__item {
   display: inline-block;
-  padding-bottom: 64px;
+  width: 162px;
+  height: 65px;
+  padding-bottom: 50px;
   padding-right: 110px;
   text-align: center;
 }
