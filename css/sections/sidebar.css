@@ -27,8 +27,20 @@
   height: 18px;
 }
 
+.nav__icon_main:hover {
+  background-image: url("../../img/sidebar/main-icon-black.png");
+  width: 18px;
+  height: 18px;
+}
+
 .nav__icon_team {
   background-image: url("../../img/sidebar/team-icon.png");
+  width: 23px;
+  height: 18px;
+}
+
+.nav__icon_team:hover {
+  background-image: url("../../img/sidebar/team-icon-black.png");
   width: 23px;
   height: 18px;
 }
@@ -37,6 +49,16 @@
   background-image: url("../../img/sidebar/feed-icon.png");
   width: 21px;
   height: 19px;
+}
+
+.nav__icon_feed:hover {
+  background-image: url("../../img/sidebar/feed-icon-black.png");
+  width: 21px;
+  height: 19px;
+}
+
+.nav__text:hover {
+  color: #221f1f;
 }
 
 .nav__link {
@@ -50,7 +72,7 @@
   letter-spacing: 2.4px;
 }
 
-.nav__link_active {
+/*.nav__link_active {
   pointer-events: none;
-  color: black;
-}
+  color: #221f1f;
+}*/
