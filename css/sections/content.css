@@ -50,7 +50,7 @@
 
 .crew__item {
   display: inline-block;
-  width: 260px;
+  width: 265px;
   text-align: center;
   vertical-align: top;
   padding-top: 20px;
@@ -63,7 +63,7 @@
   width: 160px;
   height: 160px;
   border-radius: 50%;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .crew__name {
@@ -95,7 +95,7 @@
 }
 
 .main-content__title_img {
-  padding-top: 135px;
+  padding-top: 100px;
   padding-left: 68px;
 }
 
@@ -135,7 +135,7 @@ p {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.6em;
-  padding: 15px 70px 16px 30px;
+  padding: 15px 10px 15px 30px;
 }
 
 .main-content__reserv a {
@@ -155,8 +155,7 @@ p {
 .partners__item {
   display: inline-block;
   width: 162px;
-  height: 65px;
-  padding-bottom: 50px;
-  padding-right: 110px;
+  margin-bottom: 50px;
+  margin-right: 110px;
   text-align: center;
 }
