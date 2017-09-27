@@ -61,7 +61,6 @@
 
 .crew__ava-img {
   width: 160px;
-  height: 160px;
   border-radius: 50%;
   margin-bottom: 20px;
 }
@@ -90,13 +89,14 @@
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-  width: 880px;
-  height: 353px;
+  width: 877px;
+  height: 354px;
 }
 
 .main-content__title_img {
-  padding-top: 100px;
-  padding-left: 68px;
+  margin-top: 120px;
+  margin-left: 68px;
+  margin-bottom: 70px;
 }
 
 .main-content__text ul li {
