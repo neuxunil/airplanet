@@ -31,12 +31,6 @@
   background-position: 0 0;
 }
 
-.nav__text {
-  display: inline-block;
-  margin-left: 15px;
-  vertical-align: middle;
-}
-
 .nav__icon_main {
   background-position: 0 0;
 	width: 18px;
@@ -65,6 +59,12 @@
 
 .nav__link:hover .nav__icon_feed{
   background-position: -42px -20px;
+}
+
+.nav__text {
+  display: inline-block;
+  margin-left: 15px;
+  vertical-align: middle;
 }
 
 .nav__link:hover .nav__text {
