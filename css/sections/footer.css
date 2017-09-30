@@ -8,9 +8,9 @@
 .footer__col {
   display: inline-block;
   width: 31.0%;
-  padding-top: 8px;
-  padding-left: 20px;
-  padding-bottom: 13px;
+  margin-top: 8px;
+  margin-left: 20px;
+  margin-bottom: 13px;
 }
 
 .footer__text {
@@ -41,11 +41,11 @@
   text-align: right;
   font-size: 14px;
   font-weight: 700;
-  padding-right: 16px;
+  margin-right: 16px;
 }
 
 .socials__title {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .socials__item {
@@ -57,6 +57,7 @@
   background-color: #d3dff3;
   border-radius: 50%;
   margin-left: 10px;
+  transition: background-color 0.3s;
 }
 
 .socials__item:hover {

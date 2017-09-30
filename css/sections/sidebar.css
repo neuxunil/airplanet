@@ -1,11 +1,15 @@
 .sidebar  {
   float: left;
-  width: 200px;
+  min-width: 200px;
 }
 
 .nav {
-  padding-top: 45px;
-  padding-left: 20px;
+  margin-top: 45px;
+  margin-left: 20px;
+}
+
+.nav__item {
+  margin-bottom: 25px;
 }
 
 .nav__link {
@@ -16,43 +20,36 @@
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 2.4px;
-  margin-bottom: 25px;
 }
 
 .nav__icon {
   display: inline-block;
   vertical-align: middle;
+  background: url(../../img/sidebar/sidebar-icons.png);
   background-repeat: no-repeat;
-  width: 23px;
-  height: 21px;
+  background-position: center;
+  background-position: 0 0;
 }
 
 .nav__text {
   display: inline-block;
-  padding-left: 15px;
+  margin-left: 15px;
   vertical-align: middle;
 }
 
 .nav__icon_main {
-  background: url(../../img/sidebar/sidebar-icons.png);
-  background-repeat: no-repeat;
-  background-position: center;
   background-position: 0 0;
 	width: 18px;
 	height: 18px;
 }
 
 .nav__icon_team {
-  background: url(../../img/sidebar/sidebar-icons.png); background-repeat: no-repeat;
-  background-position: center;
   background-position: -19px -1px ;
 	width: 23px;
 	height: 18px;
 }
 
 .nav__icon_feed {
-  background: url(../../img/sidebar/sidebar-icons.png); background-repeat: no-repeat;
-  background-position: center;
   background-position: -42px -2px ;
 	width: 21px;
 	height: 19px;
@@ -74,11 +71,19 @@
   color: #221f1f;
 }
 
-.nav__link_active .nav__text {
-  color: #221f1f;
-  pointer-events: none;
-}
-
 .nav__item .nav__link_active {
   pointer-events: none;
+  color: #221f1f;
+}
+
+.nav__link_active .nav__icon_main {
+  background-position: 0 -19px;
+}
+
+.nav__link_active .nav__icon_team  {
+  background-position: -19px -20px;
+}
+
+.nav__link_active .nav__icon_feed {
+  background-position: -42px -20px;
 }

@@ -1,0 +1,29 @@
+.breadcrumbs {
+  padding-top: 40px;
+}
+
+.breadcrumbs__item {
+  display: inline-block;
+}
+
+.breadcrumbs__link {
+  color: #1c5bc3;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.breadcrumbs__item:after {
+  content: "/";
+}
+
+.breadcrumbs__item:last-child:after {
+  display: none;
+}
+
+.breadcrumbs__link_active {
+  color: #221f1f;
+  text-decoration: none;
+  pointer-events: none;
+}
