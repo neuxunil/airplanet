@@ -1,5 +1,4 @@
 .reviews {
-    margin-bottom: 39px;
     width: 100%;
 }
 
@@ -7,6 +6,10 @@
   display: inline-block;
   border-bottom: 2px solid #f5f5f5;
   margin-bottom: 30px;
+}
+
+.reviews__item:last-child {
+  border-bottom: 0;
 }
 
 .reviews__ava {
@@ -42,5 +45,55 @@
 .reviews__text {
   font-size: 18px;
   font-weight: 300;
+  line-height: 1.5;
+}
+
+.pag {
+  display: block;
+  text-align: center;
+  margin-bottom: 74px;
+}
+
+.pag__numbers {
+  color: #221f1f;
+  font-size: 14px;
+  font-weight: 300;
+  margin-right: 20px;
+}
+
+.pag__list {
+  display: inline-block;
+}
+
+.pag__item {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.pag__link {
+  text-decoration: none;
+  color: #221f1f;
+  font-weight: 700;
+  text-align: center;
+}
+
+.pag__link:hover {
+  text-decoration: none;
+  color: #1c5bc3;
+}
+
+.pag__item:first-child {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.pag__link_active {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border-radius: 3px;
+  background-color: #1c5bc3;
+  color: #ffffff;
+  pointer-events: none;
   line-height: 1.5;
 }

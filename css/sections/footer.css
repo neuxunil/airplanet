@@ -31,10 +31,8 @@
 }
 
 .logo_footer {
-  width: 120px;
-  height: 36px;
-  margin-top: 5px;
-  margin-left: 105px;
+  display: block;
+  text-align: center;
 }
 
 .socials {
