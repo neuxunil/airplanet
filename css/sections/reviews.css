@@ -40,6 +40,7 @@
   color: #221f1f;
   font-size: 18px;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .reviews__text {
@@ -96,4 +97,31 @@
   color: #ffffff;
   pointer-events: none;
   line-height: 1.5;
+}
+
+.form {
+  display: block;
+  max-width: 700px;
+  height: 100%;
+  background-color: #f5f5f5;
+}
+
+.form__title {
+
+}
+
+.form__fields {
+
+}
+
+.form__rev {
+
+}
+
+.form__inputs {
+
+}
+
+.form__buttons {
+  
 }

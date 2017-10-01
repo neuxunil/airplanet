@@ -40,10 +40,10 @@
 .intro__btn-icon {
   display: inline-block;
   vertical-align: middle;
-  background: url(../../img/sidebar/sidebar-icons.png);
+  background: url(../../img/icon-btn.png);
   background-repeat: no-repeat;
   background-position: center;
   background-position: 0 0;
-  width: 18px;
-	height: 18px;
+  width: 15px;
+	height: 14px;
 }
