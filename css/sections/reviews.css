@@ -1,0 +1,46 @@
+.reviews {
+    margin-bottom: 39px;
+    width: 100%;
+}
+
+.reviews__item {
+  display: inline-block;
+  border-bottom: 2px solid #f5f5f5;
+  margin-bottom: 30px;
+}
+
+.reviews__ava {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 29px;
+}
+
+.reviews__ava-img {
+  width: 160px;
+  border-radius: 50%;
+}
+
+.reviews__info {
+  display: inline-block;
+  max-width: 695px;
+  vertical-align: top;
+  margin-left: 20px;
+}
+
+.reviews__date {
+  color: #221f1f;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.reviews__name {
+  color: #221f1f;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.reviews__text {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+}
