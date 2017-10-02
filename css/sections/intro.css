@@ -8,22 +8,39 @@
 }
 
 .intro {
+  display: inline-block;
   max-width: 210px;
-  position: relative;
-  left: 0;
-  right: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 
 .intro__logo {
   display: inline-block;
+  margin-bottom: 40px;
 }
 
 .intro__btn {
-  display: block;
-  max-width: 207px;
+  display: inline-block;
+  min-width: 207px;
   border-radius: 3px;
   border: 1px solid #1c5bc3;
+  text-decoration: none;
+}
+
+.intro__btn:hover {
+  background-color: #1c5bc3;
+}
+
+.intro__btn:hover .intro__btn-text {
+  color: #ffffff;
+}
+
+.intro__btn:hover .intro__btn-icon {
+  background-image: url(../../img/icon-btn_white.png);
 }
 
 .intro__btn-text {
@@ -31,10 +48,10 @@
   color: #1c5bc4;
   font-size: 12px;
   font-weight: 700;
-  line-height: 40px;
   letter-spacing: 2.4px;
   text-transform: uppercase;
   text-decoration: none;
+  padding: 10px 5px 10px 20px;
 }
 
 .intro__btn-icon {
@@ -44,6 +61,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-position: 0 0;
+  margin-right: 15px;
   width: 15px;
 	height: 14px;
 }
