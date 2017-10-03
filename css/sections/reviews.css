@@ -125,14 +125,19 @@
 }
 
 .form__row {
-
+  width: 100%;
 }
 
-.form__elem {
-  display: inline-block;
-  width: 269px;
-  margin-bottom: 20px;
-  margin-right: 10px;
+.form__elem-left {
+  float: left;
+  width: 48%;
+  margin-bottom: 15px;
+}
+
+.form__elem-right {
+  float: right;
+  width: 48%;
+  margin-bottom: 15px;
 }
 
 .form__elem-title {
@@ -145,10 +150,10 @@
 }
 
 .form__input {
-  width: 100%;
+  min-width: 100%;
   min-height: 45px;
   border: 1px solid transparent;
-  padding: 5px 3px;
+  padding: 5px 10px;
 }
 
 .form__input:focus{
@@ -207,6 +212,18 @@
   margin-right: 20px;
 }
 
+.form__radio__name {
+  font-size: 14px;
+  font-weight: 300;
+  vertical-align: top;
+}
+
+.form__radio-elem:checked + .form__radio__name {
+  color: #155bc4;
+  font-size: 14px;
+  font-weight: 300;
+}
+
 .form__btn {
   float: right;
 }
@@ -237,6 +254,7 @@
   background-position: center;
   width: 15px;
   height: 14px;
+  vertical-align: middle;
 }
 
 .form__submit:hover {
