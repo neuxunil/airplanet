@@ -70,13 +70,16 @@
   color: #1c5bc3;
   font-size: 14px;
   font-weight: 700;
+  font-style: normal;
   padding-top: 18px;
 }
 
 .contacts__dropdown-dinner {
   display: inline-block;
   color: #221f1f;
+  font-size: 14px;
   font-weight: 300;
+  font-style: normal;
   padding-bottom: 18px;
 }
 
