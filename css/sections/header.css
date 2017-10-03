@@ -7,6 +7,7 @@
   display: inline-block;
   width: 49.5%;
   margin-top: 13px;
+  margin-left: 3px;
   margin-bottom: 20px;
 }
 
@@ -19,6 +20,7 @@
 }
 
 .contacts__phone {
+  display: block;
   font-size: 21px;
   font-weight: 700;
   color: #ffffff;
@@ -27,13 +29,71 @@
 }
 
 .contacts__desc {
-
+  display: inline-block;
+  position: relative;
 }
 
 .contacts__desc-text {
+  display: inline-block;
   opacity: 0.7;
   color: #ffffff;
   font-size: 14px;
   font-weight: 700;
+  font-style: normal;
   text-decoration: underline;
+  transition: 0.3s;
+}
+
+.contacts__desc-text:hover {
+  opacity: 1;
+}
+
+.contacts__dropdown {
+  position: absolute;
+  top: 110%;
+  left: -9999px;
+  transform: translateY(30%);
+  min-width: 163px;
+  min-height: 80px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(23, 59, 117, 0.55);
+  background-image: linear-gradient(to top, #ffffff 0%, #ffffff 100%);
+  opacity: 0.95;
+  text-align: center;
+  z-index: 10;
+  vertical-align: middle;
+  transition: opacity 0.3s;;
+}
+
+.contacts__dropdown-week {
+  display: inline-block;
+  color: #1c5bc3;
+  font-size: 14px;
+  font-weight: 700;
+  padding-top: 18px;
+}
+
+.contacts__dropdown-dinner {
+  display: inline-block;
+  color: #221f1f;
+  font-weight: 300;
+  padding-bottom: 18px;
+}
+
+.contacts__desc:hover .contacts__dropdown {
+  left: -70%;
+}
+
+.contacts__dropdown-triangle {
+  border-top: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-bottom: 15px solid #ffffff;
+  border-radius: 10px;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  bottom: 96%;
+  left: 83%;
+  margin-right: 5px;
 }

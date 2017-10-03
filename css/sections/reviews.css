@@ -217,6 +217,7 @@
   background-color: #1c5bc3;
   border: 0;
   padding: 15px 10px;
+  cursor: pointer;
   transition: 0.3s;
 }
 
