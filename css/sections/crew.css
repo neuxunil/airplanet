@@ -1,6 +1,7 @@
 .crew {
-    margin-bottom: 39px;
-    width: 100%;
+  margin-top: 57px;
+  margin-bottom: 22px;
+  width: 100%;
 }
 
 .crew__item {
@@ -8,16 +9,18 @@
   max-width: 260px;
   text-align: center;
   vertical-align: top;
-  margin-top: 20px;
-  margin-left: 8px;
-  margin-right: 20px;
-  margin-bottom: 15px;
+  margin-left: 18px;
+  margin-right: 12px;
+  margin-bottom: 40px;
+}
+
+.crew__ava {
+  margin-bottom: 10px;
 }
 
 .crew__ava-img {
   width: 160px;
   border-radius: 50%;
-  margin-bottom: 20px;
 }
 
 .crew__name {

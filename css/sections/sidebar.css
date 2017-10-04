@@ -4,12 +4,16 @@
 }
 
 .nav {
-  margin-top: 45px;
+  margin-top: 42px;
   margin-left: 20px;
 }
 
 .nav__item {
   margin-bottom: 25px;
+}
+
+.nav__item:last-child {
+  margin-bottom: 0;
 }
 
 .nav__link {

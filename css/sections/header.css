@@ -6,13 +6,14 @@
 .header__col {
   display: inline-block;
   width: 49.5%;
-  margin-top: 13px;
-  margin-left: 3px;
-  margin-bottom: 20px;
+  margin-bottom: 13px;
 }
 
 .logo {
   display: inline-block;
+  margin-left: 20px;
+  margin-top: 17px;
+
 }
 
 .contacts {
@@ -26,11 +27,13 @@
   color: #ffffff;
   text-decoration: none;
   font-style: normal;
+  margin-right: 13px;
 }
 
 .contacts__desc {
   display: inline-block;
   position: relative;
+  margin-right: 13px;
 }
 
 .contacts__desc-text {
