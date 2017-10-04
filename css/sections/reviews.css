@@ -260,6 +260,10 @@
 	border-radius: 50%;
 }
 
+.form__radios-name {
+  vertical-align: top;
+}
+
 .form__btn {
   float: right;
 }
