@@ -9,7 +9,7 @@ body, html {
 body {
   font-family: 'Roboto', sans-serif;
   color: #221f1f;
-  line-height: 1.42em;
+  line-height: 1.42;
 }
 
 .wrapper {
@@ -24,7 +24,7 @@ body {
   height: 77px;
 }
 
-ul {
+ul, h1 {
   margin: 0;
   padding: 0;
   list-style: none;

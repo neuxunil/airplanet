@@ -1,19 +1,18 @@
 .header {
   background-color: #1c5bc3;
   color: #ffffff;
+  padding-bottom: 13px;
+  padding-top: 9px;
 }
 
 .header__col {
   display: inline-block;
   width: 49.5%;
-  margin-bottom: 13px;
 }
 
 .logo {
   display: inline-block;
   margin-left: 20px;
-  margin-top: 17px;
-
 }
 
 .contacts {
@@ -44,7 +43,7 @@
   font-weight: 700;
   font-style: normal;
   text-decoration: underline;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 .contacts__desc-text:hover {
@@ -53,19 +52,19 @@
 
 .contacts__dropdown {
   position: absolute;
-  top: 110%;
+  top: 100%;
   left: -9999px;
-  transform: translateY(30%);
-  min-width: 163px;
-  min-height: 80px;
-  border-radius: 5px;
+  transform: translateY(23%);
+  min-width: 160px;
+  min-height: 60px;
+  border-radius: 3px;
   box-shadow: 0 0 10px rgba(23, 59, 117, 0.55);
   background-image: linear-gradient(to top, #ffffff 0%, #ffffff 100%);
   opacity: 0.95;
   text-align: center;
   z-index: 10;
   vertical-align: middle;
-  transition: opacity 0.3s;;
+  transition: opacity 0.4s;;
 }
 
 .contacts__dropdown-week {
@@ -74,7 +73,7 @@
   font-size: 14px;
   font-weight: 700;
   font-style: normal;
-  padding-top: 18px;
+  padding-top: 12px;
 }
 
 .contacts__dropdown-dinner {
